@@ -1,0 +1,6 @@
+{
+	"undef": true,
+	"unused": true,
+	"predef": ["module", "global", "document", "window", "console", "escape", "unescape", "require", "XMLHttpRequest", "setTimeout", "setInterval", "history", "ga", "Flickity", "smoothScroll", "minFontSize", "process", "describe", "test", "expect"],
+	"esversion": 6
+}
