@@ -1,4 +1,4 @@
-// node app/neural-network-test.js
+// $ node app/neural-network-test.js
 // https://repl.it/F5Mw/3
 // https://github.com/lucamug/simple-neural-network-in-javascript
 "use strict";
