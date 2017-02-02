@@ -1,6 +1,8 @@
 # $ node app/neural-network-test.js
 # https://repl.it/F5Mw/3
 # https://github.com/lucamug/simple-neural-network-in-javascript
+# http://iamtrask.github.io/2015/07/12/basic-python-network/
+
 import numpy as np
 
 # sigmoid function
