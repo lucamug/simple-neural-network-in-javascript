@@ -1,7 +1,19 @@
+// This is a rewriting in Javascript of the original
+// Python code in http://iamtrask.github.io/2015/07/12/basic-python-network/
+//
+// You can run it in a browser console. Just copy all the code and
+// paste it in the console.
+//
+// Or it can run in node with the command
+//
 // $ node app/neural-network-test.js
+//
+// A running python version is available here:
 // https://repl.it/F5Mw/3
+//
+// https://github.com/Marenz/neural_net_examples
 // https://github.com/lucamug/simple-neural-network-in-javascript
-// http://iamtrask.github.io/2015/07/12/basic-python-network/
+//
 "use strict";
 const matrixOperate = (fn) => {
     return (a1, a2) => {
@@ -133,4 +145,4 @@ for (let iter = 0; iter < 10000; iter++) {
 // print l1
 
 console.log("Output After Training:");
-console.log(l1);
+console.log(JSON.stringify(l1, null, '  '));
