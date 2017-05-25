@@ -19,10 +19,8 @@
 "use strict";
 const matrixOperate = (fn) => {
     return (a1, a2) => {
-        // console.log('xxxx', fn, a1, a2);
         const r = [];
         a1.forEach((v, i) => {
-            // console.log("iiiiii", v[0], a2[i][0]);
             r[i] = [fn(v[0], a2[i][0])];
         });
         return r;
