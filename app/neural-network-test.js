@@ -1,3 +1,5 @@
+// Article: https://medium.com/@l.mugnaini/a-neural-network-in-11-lines-of-javascript-d58b38330178
+//
 // This is a rewriting in Javascript of the original
 // Python code in http://iamtrask.github.io/2015/07/12/basic-python-network/
 //
@@ -61,7 +63,7 @@ const dot = (a1, a2) => {
 let l1, l0, l1_error, l1_delta;
 
 // import numpy as np
-// 
+//
 // # sigmoid function
 // def nonlin(x,deriv=False):
 //     if(deriv==True):
@@ -93,7 +95,7 @@ const X = [
     [1, 1, 1]
 ];
 
-// # output dataset            
+// # output dataset
 // y = np.array([[0,0,1,1]]).T
 
 const y = transpose([
@@ -105,7 +107,7 @@ const y = transpose([
 // np.random.seed(1)
 
 // # initialize weights randomly with mean 0
-// syn0 = 2*np.random.random((3,1)) - 1 
+// syn0 = 2*np.random.random((3,1)) - 1
 
 let syn0 = [
     [-0.16595599],
@@ -129,7 +131,7 @@ for (let iter = 0; iter < 10000; iter++) {
 
     l1_error = matrixSub(y, l1);
 
-    //     # multiply how much we missed by the 
+    //     # multiply how much we missed by the
     //     # slope of the sigmoid at the values in l1
     //     l1_delta = l1_error * nonlin(l1,True)
 
